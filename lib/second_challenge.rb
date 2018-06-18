@@ -7,7 +7,13 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+  #require "pry"
+  big_array = []
+  groceries.each do |type, food| 
+      #binding.pry
+        big_array << food
+        
+            end
+         big_array.flatten
 
 end
